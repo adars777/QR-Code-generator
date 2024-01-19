@@ -1,6 +1,6 @@
 # Some of the steps for using this website.
 ## 1. Install Node js
-## 2. "npm init" in cmd
+## 2. run "npm init" in terminal at file location.
 
 
 # QR-code-generator
