@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Rubik+Doodle+Shadow&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(202, 202, 184);
+}
+
+header {
+  font-family: "Salsa", cursive;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  text-shadow: 0 0 15px BLACK;
+  fill: #000;
+}
+
+.form {
+  background-position: center center;
+  background-color: rgb(202, 202, 184);
+  display: flex;
+  justify-content: center;
+  border: 3px solid #000;
+  box-shadow: 0 0 70px red;
+  width: 400px;
+  height: 500px;
+  position: relative;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+form label {
+  text-shadow: 0 0 10px #ff0c0c;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Rubik Doodle Shadow", system-ui;
+}
+
+form input {
+  font-family: "Exo 2", sans-serif;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 18px #040303;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  padding: 3px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn button {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 0 0 10px black;
+  cursor: pointer;
+  background-color: rgba(230, 70, 70, 0.547);
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Rubik Doodle Shadow", system-ui;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    font-size: 30px;
+    border: none;
+    box-shadow: inset 0 0 32px red;
+  }
+
+  .form {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    font-size: 20px;
+    box-shadow: none;
+    border: none;
+  }
+
+  .form {
+    height: 400px;
+    width: 300px;
+    margin-top: 100px;
+  }
+}
